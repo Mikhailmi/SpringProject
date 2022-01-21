@@ -14,7 +14,6 @@ public class CartServiceImpl implements CartService {
         this.productRepository = productRepository;
     }
 
-
     @Lookup
     @Override
     public Cart getNewCart() {
