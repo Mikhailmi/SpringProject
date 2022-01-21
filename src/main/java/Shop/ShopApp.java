@@ -29,7 +29,6 @@ public class ShopApp {
 
     }
 
-
     @PostConstruct
     private void cartInteract() throws IOException {
         Cart cart = cartService.getNewCart();

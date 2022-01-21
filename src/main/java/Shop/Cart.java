@@ -9,7 +9,6 @@ import java.util.Map;
 @Component
 @Scope("prototype")
 public class Cart {
-
     private final Map<Product, Integer> cartMap = new HashMap<>();
 
     public Map<Product, Integer> getCartMap(){
