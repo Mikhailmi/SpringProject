@@ -1,0 +1,9 @@
+<bean id="cameraRoll" class="Photo.ColorCameraRoll" />
+
+<bean id="camera" class="Photo.CameraImpl">
+<property name="cameraRoll">
+    <ref bean="cameraRoll" />
+</property>
+</bean>
+
+
